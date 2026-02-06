@@ -83,7 +83,7 @@ describe('Content Tests', () => {
     it('should contain footer with copyright', () => {
       expect(html).toContain('<footer');
       // Copyright symbol can be encoded as &copy; or ©
-      expect(html).toMatch(/(&copy;|©)\s*2024\s*Arturo Soto SA/);
+      expect(html).toMatch(/(&copy;|©)\s*2026\s*Arturo Soto SA/);
       expect(html).toContain('Todos los derechos reservados');
     });
   });

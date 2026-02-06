@@ -74,7 +74,7 @@ test.describe('Homepage', () => {
   test('should display footer with copyright', async ({ page }) => {
     const footer = page.locator('footer');
     await expect(footer).toBeVisible();
-    await expect(footer).toContainText('© 2024 Arturo Soto SA');
+    await expect(footer).toContainText('© 2026 Arturo Soto SA');
     await expect(footer).toContainText('Todos los derechos reservados');
   });
 
